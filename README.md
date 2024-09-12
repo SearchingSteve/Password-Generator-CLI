@@ -1,13 +1,15 @@
 # Password Generator CLI
 
-A simple command-line interface (CLI) application built with Node.js that generates random passwords of lowercase letters.
+A command-line interface (CLI) application built with Node.js that generates customizable passwords based on user-specified criteria.
 
 ## Features
 
-- Generate passwords consisting of lowercase letters
-- Customizable password length
+- Generate passwords with customizable length
+- Option to include numbers in the password
+- Option to include capital letters in the password
+- Option to include symbols in the password
 - Default password length of 8 if not specified
-- Help message to guide users on application usage
+- Help command to display usage instructions
 
 ## Usage
 
@@ -19,14 +21,20 @@ npx password-generator [options]
 
 - `-h, --help`: Display help message
 - `-l, --length <length>`: Set the length of the password (default is 8)
+- `-n, --numbers`: Include numbers in the password
+- `-c, --capitals`: Include capital letters in the password
+- `-s, --symbols`: Include symbols in the password
 
 ### Examples
 
-Generate a password with default length (8 characters):
+Generate a password with default settings (8 characters, lowercase letters only):
 npx password-generator
 
-Generate a 12-character password:
-npx password-generator --length 12
+Generate a 12-character password with numbers and capital letters:
+npx password-generator --length 12 --numbers --capitals
+
+Generate a 16-character password with all options enabled:
+npx password-generator --length 16 --numbers --capitals --symbols
 
 Display help message:
 npx password-generator --help
@@ -42,14 +50,13 @@ To work on this project locally:
 3. Install dependencies (if any):
    npm install
 
-The main script `password-generator.js` contains three main functions:
+The main script `index.js` contains three main functions:
 
-1. `generatePassword(length)`: Creates a random password of lowercase letters with the specified length.
+1. `generatePassword(length, includeNumbers, includeCapitals, includeSymbols)`: Creates a random password based on the specified criteria.
 2. `printHelpMessage()`: Prints the help message to the console.
 3. `handleArguments(userArguments)`: Processes command-line arguments and generates the password.
 
 To contribute to this project, please ensure your code follows the existing style and includes appropriate comments.
-
 
 ## License
 
