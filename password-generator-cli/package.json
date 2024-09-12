@@ -1,0 +1,11 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "bin": {"password-generator": "./index.js"},
+  "description": "A simple cli password generator",
+  "main": "index.js",
+
+
+  "author": "Stephen Crocker",
+  "license": "ISC"
+}
