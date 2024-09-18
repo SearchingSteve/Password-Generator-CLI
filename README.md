@@ -48,7 +48,8 @@ To work on this project locally:
 2. Navigate to the project directory:
    cd password-generator-cli
 3. Install dependencies (if any):
-   npm install
+   npm install -g password-generator
+
 
 The main script `index.js` contains three main functions:
 
