@@ -67,7 +67,3 @@ This project and all associated files are licensed under the Creative Commons At
 
 Stephen Crocker
 
-## Acknowledgments
-
-- Node.js community for providing excellent documentation and resources.
-- All contributors who have helped improve this project.
