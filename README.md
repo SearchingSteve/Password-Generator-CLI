@@ -1,4 +1,4 @@
-# Password Generator CLI
+# Password Generator CLI App
 
 A command-line interface (CLI) application built with Node.js that generates customizable passwords based on user-specified criteria.
 
