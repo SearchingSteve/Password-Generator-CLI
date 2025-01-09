@@ -61,9 +61,11 @@ To contribute to this project, please ensure your code follows the existing styl
 
 ## License
 
-This project and all associated files are licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License. - see the LICENSE file for details.
+This project is provided for **personal use only**. Redistribution, modification, or commercial use in any form is strictly prohibited without prior written permission from the author.
+
+For detailed license terms, refer to the [LICENSE](./LICENSE.md) file.
 
 ## Author
+- **[Stephen Crocker](https://github.com/SearchingSteve)** 
 
-Stephen Crocker
 
